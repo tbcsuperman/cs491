@@ -1,16 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import TodoParent from "./components/TodoParent.jsx"
+import {Container} from 'react-bootstrap';
+import {BrowserRouter as Router,Route,Link,Routes} from 'react-router-dom';
+import TodoList from "./pages/TodoList.jsx"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <TodoParent></TodoParent>
-    </>
+    <Container>
+      <h1>CS491</h1>
+      <Router>
+        <ul>
+          <li>
+            <Link to="/todolist">Todo List</Link>
+          </li>
+        </ul>
+        <Routes>
+          <Route path="/todolist" element={<TodoList />} />
+          <Route path="*" element={<h1>404: page not found</h1>} />
+        </Routes>
+      </Router>
+    </Container>
   )
 }
 
