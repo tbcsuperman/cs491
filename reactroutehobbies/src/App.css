@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.center-table {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}

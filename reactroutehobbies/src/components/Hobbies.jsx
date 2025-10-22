@@ -10,7 +10,7 @@ let Hobbies = () => {
         },
         {
             title: "Game Development",
-            picture: "https://picsum.photos/id/60/1920/1200",
+            picture: "https://picsum.photos/id/69/4912/3264",
             link: "/gamedev",
         },
         {

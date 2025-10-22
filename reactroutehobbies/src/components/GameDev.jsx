@@ -4,7 +4,7 @@ let GameDev = () => {
     return (
         <div>
             <h1>Game Development</h1>
-            <img src="https://picsum.photos/id/60/1920/1200" height="300"/><br/>
+            <img src="https://picsum.photos/id/69/4912/3264" height="300"/><br/>
             <h2>Introduction</h2>
             <p>
                 I have a niche hobby in game development, gone are the days of my aspirations of becoming a full-time game developer.
