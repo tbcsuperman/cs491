@@ -20,7 +20,7 @@ let Hobbies = () => {
         },
         {
             title: "Anime",
-            picture: "https://picsum.photos/id/56/2880/1920",
+            picture: "https://static0.srcdn.com/wordpress/wp-content/uploads/2024/10/demon-slayer-roar-of-victory-poster.jpg?w=1200&h=675&fit=crop",
             link: "/anime",
         },
     ];

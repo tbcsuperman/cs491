@@ -4,7 +4,7 @@ let Anime = () => {
     return (
         <div>
             <h1>Anime</h1>
-            <img src="https://picsum.photos/id/56/2880/1920" height="300"/><br/>
+            <img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2024/10/demon-slayer-roar-of-victory-poster.jpg?w=1200&h=675&fit=crop" height="300"/><br/>
             <h2>Introduction</h2>
             <p>
                 One of my more relaxing hobbies is just watching anime.
