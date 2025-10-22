@@ -23,10 +23,10 @@ let Todo = () => {
     let makeTodoItem = (todoItem) => {
         const id = todoItem.id;
         return (
-            <div>
-                {todoItem.text}
-                <Button onClick={() => {deleteTodoItem(id)}}>-</Button>
-            </div>
+            <tr>
+                <td>{todoItem.text}</td>
+                <td><Button onClick={() => {deleteTodoItem(id)}}>-</Button></td>
+            </tr>
         )
     };
 
@@ -39,7 +39,11 @@ let Todo = () => {
                 <Button onClick={addTodoItem}>+</Button>
             </div>
             <h2>Todo List</h2>
-            <div>{list.map(makeTodoItem)}</div>
+            <table>
+                <tbody>
+                    {list.map(makeTodoItem)}
+                </tbody>
+            </table>
         </div>
     )
 }
